@@ -1,3 +1,10 @@
 language: node_js
 node_js:
   - 0.10
+env:
+  global:
+    secure: O52ViuumlXRtBok4K4gtR9AFdo95W8w4DTUGxPvNCKdyospOJVUBu7znytPLDMpkZBLmp4Bbroy2CBv3vAiycHCuVpkGafKpRVlVPnQjVsI5O89/BLj4JrCRYXpZDmzCvYq+s7jNQxi6o2KnhHd6kF9/n5JMguuExDQ6D7dbUhI=
+  matrix:
+    - BROWSER="iphone 6.1 Mac 10.8"
+    - BROWSER="ipad 5.1 Mac 10.8"
+    - BROWSER="firefox 6 Mac 10.6"

@@ -1,17 +1,11 @@
 
-# string-humanize [![Build Status](https://travis-ci.org/jxson/string-humanize.png?branch=master)](https://travis-ci.org/jxson/string-humanize)
+# string-humanize
 
 Transforms the input into a human friendly form (just the .humanize() function from string.js).
 
-[![NPM](https://nodei.co/npm/string-humanize.png)](https://nodei.co/npm/string-humanize/)
-
-[![browser support](https://ci.testling.com/jxson/string-humanize.png)](https://ci.testling.com/jxson/string-humanize)
-
-I noticed that there was a TODO in [string.js][string-js-todo] to break things up into smaller modules so I thought I would help out.
-
 # Installation
 
-    npm install string-humanize
+    component install jb55/humanize-string
 
 # humanize(string)
 

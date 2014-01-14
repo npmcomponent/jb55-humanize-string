@@ -1,6 +1,6 @@
 
-const assert = require('assert')
-const humanize = require('./index.js')
+var assert = require('assert')
+var humanize = require('humanize-string')
 
 describe('humanize(string)', function(){
   it('converts snake case', function(){

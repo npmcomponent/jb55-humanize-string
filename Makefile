@@ -1,7 +1,14 @@
 
-VERSION=patch
+build: components index.js
+	@component build --dev
 
-release:
-	npm version $(VERSION)
-	git push && git push --tags
-	npm publish
+components: component.json
+	@component install --dev
+
+test: build
+	@component test phantom
+
+clean:
+	rm -fr build components
+
+.PHONY: clean
