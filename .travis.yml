@@ -3,13 +3,12 @@ node_js:
   - '0.10'
 env:
   global:
-    - secure: O52ViuumlXRtBok4K4gtR9AFdo95W8w4DTUGxPvNCKdyospOJVUBu7znytPLDMpkZBLmp4Bbroy2CBv3vAiycHCuVpkGafKpRVlVPnQjVsI5O89/BLj4JrCRYXpZDmzCvYq+s7jNQxi6o2KnhHd6kF9/n5JMguuExDQ6D7dbUhI=
+    - secure: Kzc31RjrsUcSlUVO/HyDFeEZXoTIGH27d77psa9icJLxwm9jM7hsbsxo6Epv7PFHby8/OYzTrjkHOvtR2w8Tj0bdNkn6n/jWNJYZt/xJacBt02GAZTt5r9f8NbWJjJB2oYPK2aEqgI975wOOGu3YY4jikbabL3eXIxBgl/q7H5E=
     - DEBUG=component-test*
   matrix:
     - BROWSER="iphone 6.1 Mac 10.8"
     - BROWSER="ipad 5.1 Mac 10.8"
     - BROWSER="firefox 6 Mac 10.6"
-
 cache:
   directories:
     - node_modules
