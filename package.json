@@ -10,6 +10,6 @@
     "test": "component-test sauce"
   },
   "devDependencies": {
-    "component-test": "*"
+    "component-test2": "*"
   }
 }
