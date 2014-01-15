@@ -11,4 +11,7 @@ test: build
 clean:
 	rm -fr build components
 
+sauce: build
+	@component-test sauce
+
 .PHONY: clean

@@ -5,6 +5,7 @@ env:
   global:
     - secure: Kzc31RjrsUcSlUVO/HyDFeEZXoTIGH27d77psa9icJLxwm9jM7hsbsxo6Epv7PFHby8/OYzTrjkHOvtR2w8Tj0bdNkn6n/jWNJYZt/xJacBt02GAZTt5r9f8NbWJjJB2oYPK2aEqgI975wOOGu3YY4jikbabL3eXIxBgl/q7H5E=
     - DEBUG=component-test*
+    - PATH=$PATH:./node_modules/component/bin
   matrix:
     - BROWSER="iphone 6.1 Mac 10.8"
     - BROWSER="ipad 5.1 Mac 10.8"

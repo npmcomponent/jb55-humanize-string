@@ -7,9 +7,10 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "make && component-test sauce"
+    "test": "make sauce"
   },
   "devDependencies": {
-    "component-test2": "*"
+    "component": "*",
+    "component-test": "*"
   }
 }
