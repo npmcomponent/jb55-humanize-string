@@ -1,5 +1,5 @@
 
-var capitalize = require('capitalize');
+var capitalize = require('yields-capitalize');
 
 module.exports = humanize;
 

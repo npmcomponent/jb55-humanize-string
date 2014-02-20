@@ -1,16 +1,11 @@
 {
-  "name": "humanize-string",
-  "description": "humanize-string-component",
+  "name": "jb55-humanize-string",
+  "description": "Humanize a string",
   "version": "0.0.1",
-  "repository": {
-    "url": "git://github.com/jb55/humanize-string.git"
-  },
+  "keywords": [],
   "main": "index.js",
-  "scripts": {
-    "test": "make sauce"
+  "dependencies": {
+    "yields-capitalize": "git://github.com/npmcomponent/yields-capitalize.git"
   },
-  "devDependencies": {
-    "component": "*",
-    "component-test": "*"
-  }
+  "license": "MIT"
 }
